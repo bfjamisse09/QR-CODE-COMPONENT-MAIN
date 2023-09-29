@@ -1,11 +1,10 @@
-
 :root {
     --clr-white: hsl(0, 0%, 100%);
     --clr-light_gray: hsl(212, 45%, 89%);
     --clr-grayish_blue: hsl(220, 15%, 55%);
     --clr-dark_blue: hsl(218, 44%, 22%);
 
-    --ff-base:'Outfit', sans-serif;
+    --ff-base: 'Outfit', sans-serif;
 
     --fw-regular: 400;
     --fw-bold: 700;
@@ -74,10 +73,11 @@ body {
     color: var(--clr-grayish_blue);
 
     display: grid;
-    min-height:100vh;
+    min-height: 100vh;
     place-content: center;
     margin: 1rem;
 }
+
 
 /* END OF GENERAL STYLING */
 
@@ -99,7 +99,7 @@ body {
 
 .project__main-message {
     font-size: 1.25rem;
-    line-height:1.2;
+    line-height: 1.2;
     font-weight: var(--fw-bold);
     color: var(--clr-dark_blue);
 }
@@ -109,10 +109,4 @@ body {
     line-height: 1.2;
     font-weight: var(--fw-regular);
     color: var(--clr-grayish_blue);
-}
-
-@media (min-width:375px) {
-    .project__image img {
-        max-width:310px;
-    }
 }
